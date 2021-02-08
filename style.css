@@ -1,0 +1,49 @@
+body
+{
+  margin:0px;
+}
+.main
+{
+  height: 100vh;
+  width:100%;
+  background-color:black;
+  background-image:url('0034.png');
+  background-size:98% 108%;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+.logo{
+  position: absolute;
+  top:20px;
+  left:7%;
+  color: aliceblue;
+
+}
+
+.menu{
+  position: absolute;
+  top:70%;
+  left:-170px;
+  transform:translateY(-50%) rotate(-90deg);
+}
+.menu ul{
+  list-style:none;
+}
+.menu ul li{
+  display:inline-block;
+  margin-left:60px;
+  font-family: arial;
+  font-size:11px;
+  color:white;
+  letter-spacing:5px;
+}
+
+.socialmedia{
+  position: absolute;
+  bottom:50px;
+  right:40px;
+}
+.socialmedia ul li img{
+  width:20px;
+  margin-top:10px;
+}
